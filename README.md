@@ -12,13 +12,13 @@
 ### - WeatherPy.ipynb: A Jupyter Notebook for obtaining, processing, and analyzing data on weather.
 ### - VacationPy.ipynb: A Jupyter Notebook for finding vacation locations that have ideal weather conditions and close accommodations.
 ### - cities.csv: A dataset containing city names, countries, and coordinates obtained for API calls.
-### - Output Figure Folder: Contains plots depicting different analyses:
-###     - Scatter plots and linear regression model plots: visuals for how temperature, humidity, cloudiness, and wind speed vary based on latitude.
-###     - Interactive maps: map_plot.png & map_plot_with_hotels.png--both show cities with weather data on a hover menu on a map, one includes nearby hotels.
+### - Output Figures: Contains plots depicting different analyses:
+###     - output_data Folder (Scatter plots and linear regression model plots): visuals for how temperature, humidity, cloudiness, and wind speed vary based on latitude.
+###     - vacationpyhvplots Folder (Interactive maps): map_plot.png & map_plot_with_hotels.png--both show cities with weather data on a hover menu on a map, one includes nearby hotels.
 
 ## Key Takeaways
 
-### 1. Temp vs. Lat: Depicts a clear pattern of temperatures increases closer to the equator
+### 1. Temp vs. Lat: Depicts a clear pattern of temperatures increasing closer to the equator
 ### 2. Humidity, Cloudiness, Wind Speed vs. Lat: Displays more differentiation and weaker to no relationship with latitude
 ### 3. Vacation Analysis: Gives a list of potential vacation locations based on ideal weather conditions and nearby hotels, all visualized on an interactive hvplot map.
 
@@ -33,3 +33,8 @@
 ### - Weather Analysis: Use "WeatherPy.ipynb" for data analysis on weather, it will produce scatter plots and regression lines to depict relationship between weather params and latitude.
 ### - Vacation Analysis: Use "VactionPy.ipynb" to filter cities by ideal weather conditions and find nearby hotels, it will produce results on an interactive map.
 
+# References
+
+# Throughout both the VacationPy and WeatherPy analyses, code was referenced from ChatGPT due to several trouble shooting errors with plotting and API keys.
+
+# OpenAI. (2024). ChatGPT (Aug 29 version) [Large language model]/ https://chat.openai.com/chat 
